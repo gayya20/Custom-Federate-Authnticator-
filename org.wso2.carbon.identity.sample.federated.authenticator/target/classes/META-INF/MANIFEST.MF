@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1719294483548
+Build-Jdk: 11.0.21
+Built-By: GayalSanjana
+Bundle-Description: WSO2 Identity Server Samples
+Bundle-DocURL: http://www.wso2.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.identity.custom.federated.authenticator
+Bundle-SymbolicName: org.wso2.carbon.identity.custom.federated.authentic
+ ator
+Bundle-Vendor: WSO2
+Bundle-Version: 4.6.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.identity.custom.federated.authenticator;
+ version="4.6.3.SNAPSHOT"
+Implementation-Title: WSO2 Carbon - Custom Federated Authenticator
+Implementation-Vendor: WSO2
+Implementation-Vendor-Id: org.wso2.samples.is
+Implementation-Version: 4.6.3-SNAPSHOT
+Import-Package: com.nimbusds.jose.util;version="[2.26.0,8.0.0)",net.mini
+ dev.json;version="[1.3.0,3.0.0)"
+Service-Component: OSGI-INF/org.wso2.carbon.identity.custom.federated.au
+ thenticator.internal.CustomFederatedAuthenticatorServiceComponent.xml,O
+ SGI-INF/org.wso2.carbon.identity.custom.federated.authenticator.interna
+ l.UserRegistrationComponent.xml
+Specification-Title: WSO2 Carbon - Custom Federated Authenticator
+Specification-Vendor: WSO2
+Specification-Version: 4.6.3-SNAPSHOT
+Tool: Bnd-2.1.0.20130426-122213
